@@ -1,15 +1,28 @@
 # Capstone Project for Diploma in Software Development
  October - December 2022
  
- This is a website for a south african organisation called R&E Foundation, designed and coded using agile methodologies by our four studen team.
+ This is a website for a south african organisation called R&E Foundation, designed and coded using agile methodologies by our four student team.
+ We used MERN stack of technologies, leveraging a Mongo Database for users and testimonials, Express to run the API, React to develop the components that are on
+ the pages and served up using node.js
  
+The overall project took around two months to complete as a team, and we designed the website from the ground up. For the front end, we used a CDN version of Tailwind  to learn how that works, and we are happy with the way the website looks.
+
+### My Contributions John Wright
+I was responsible for parts of the front end, having familiarised myself with back end in a previous project [(MusicHub)](https://github.com/jwri211/MusicHub) and wanting to learn more about it. The code I was specifically in charge of completing was:
+
+- [Navbar](https://github.com/jwri211/CapstoneProject-main/blob/main/client/src/Components/NavBar.jsx)
+- [Testimony Page](https://github.com/jwri211/CapstoneProject-main/blob/main/client/src/Components/Pages/Testimony.jsx)
+- [Create Testimony Page](https://github.com/jwri211/CapstoneProject-main/blob/main/client/src/Components/Pages/CreateTestimony.jsx)
+- [Edit Testimony](https://github.com/jwri211/CapstoneProject-main/blob/main/client/src/Components/Pages/EditTestimony.jsx)
+ 
+I pitched in by helping team members in other areas too! I also documented the comments on each page of code.
  
 ### Team Members
 
-- Dwain
-- John
-- Leone
-- Brayden
+- [Dwain Aiolupotea](https://github.com/daiolupo)
+- [John Wright](https://github.com/jwri211)
+- [Leone Kruze](https://github.com/Lkra201)
+- [Brayden Dawson](https://github.com/Brayds-Dev)
 
 ### How to run:
 
@@ -30,3 +43,4 @@ Inside this file you will need to add... <br />
 - PORT = 'Desired port number'
 - MONGO_URI = 'Specific connection string for mongo atlas account'
 - SECRET = 'Any random generated token or phrase'
+
