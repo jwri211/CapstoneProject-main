@@ -1,0 +1,138 @@
+
+*{
+  padding: 0;
+  margin: 0; 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+body {
+  /* height: 100%; */
+  /* max-width: 100vw; */
+  background: linear-gradient(
+    45deg,
+    rgba(70, 113, 144, 0.87) 0%,
+    rgba(70, 113, 144, 0.87) 50%,
+    rgba(221, 240, 233, 0.42) 0%,
+    rgba(221, 240, 233, 0.42) 40%
+  );
+}
+
+
+body {
+  /* height: 100%; */
+  /* max-width: 100vw; */
+  background: linear-gradient(
+    45deg,
+    rgba(70, 113, 144, 0.87) 0%,
+    rgba(70, 113, 144, 0.87) 50%,
+    rgba(221, 240, 233, 0.42) 0%,
+    rgba(221, 240, 233, 0.42) 40%
+  
+  );
+}
+
+
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Baguet Script, Cochin, Georgia, Times, "Times New Roman", serif;
+
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 38px;
+  border: 65px ;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  align-items: center;
+}
+
+/*input[type="submit"]:hover {
+  background: #17e209;
+}*/
+
+input[type="reset"] {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #23365c;
+  border: 1px solid #f1f6f7;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="reset"]:hover {
+  background: #e80909;
+}
+
+input[type="textarea"] {
+  padding: 18px;
+  column-count: 5px;
+  border-radius: 4px;
+  
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.form {
+  padding: 40px;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+.app {
+  text-align: center;
+  line-height: 35px;
+  margin-top: 200px;
+  margin-bottom: 330px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
